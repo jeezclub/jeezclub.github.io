@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>JeezClub - 高中攝影社團</title>
+    <style type="text/css">
+        @font-face
+		{
+			font-family: "marzo";
+			src: url("font/marzo.ttf") format("truetype");
+		}
+        @font-face
+        {
+            font-family: "raleway";
+            src: url("font/raleway.woff2") format("woff2");
+        }
+        span
+        {
+            display: block;
+        }
+		video
+		{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -99;
+            transform: translate(-50%, -50%);
+		}
+		a
+		{
+			width: 150px;
+			position: absolute;
+            left:  calc(50% - 75px);
+            bottom: 20%;
+			color: #fff;
+			text-decoration: none;
+            text-align: center;
+		}
+        #btn-corner
+        {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 40px;
+            height: 35px;
+            border-top: 1px solid #fff;
+            border-right: 1px solid #fff;
+        }
+		#btn-line1
+		{
+            margin-top: 10px;
+			font-family: "marzo";
+			font-size: 32px;
+            letter-spacing: 8px;
+            line-height: 1.2em;
+            font-weight: bold;
+		}
+        #btn-line2
+        {
+            font-family: "raleway";
+			font-size: 15px;
+            letter-spacing: 0.05em;
+            color: f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <video autoplay loop>
+        <source src="bg.mp4" type="video/mp4">
+    </video>
+    <a href="home.html">
+        <span id="btn-line1">JEEZ<br />CLUB</span>
+        <span id="btn-line2">Enter Main Site</span>
+        <span id="btn-corner"></span>
+    </a>
+</body>
+
+</html>

@@ -1,0 +1,224 @@
+@font-face
+{
+    font-family: "DIN-Next-W10-Light";
+    src: url("font/DIN-Next-W10-Light.woff") format("woff");
+}
+@font-face
+{
+    font-family: "Helvetica-LT-W10-Roman";
+    src: url("font/Helvetica-LT-W10-Roman.woff") format("woff");
+}
+@font-face
+{
+    font-family: "raleway";
+    src: url("font/raleway.woff2") format("woff2");
+}
+@font-face
+{
+    font-family: "marzo";
+    src: url("font/marzo.ttf") format("TrueType");
+}
+@font-face
+{
+    font-family: "counter";
+    src: url("font/counter.woff") format("woff");
+}
+header, section, footer, aside, nav, article, section, figure
+{
+	display: block;
+}
+.con
+{
+    width: 980px;
+    height: inherit;
+    margin: auto;
+    position: relative;
+}
+body
+{
+    margin: 0;
+	width: 100%;
+}
+header
+{
+    width: 100%;
+    height: 180px;
+}
+	#logo
+	{
+		font-family: "marzo";
+		font-size: 28px;
+		font-weight: bold;
+		letter-spacing: 8px;
+		line-height: 1.2em;
+		color: #01B1AF;
+		width: 120px;
+		height: 80px;
+		display: block;
+		position: absolute;
+		left: 90px;
+		top: 50px;
+	}
+		#logo span:first-child
+		{
+			float: right;
+			width: 27px;
+			height: 24px;
+			border-top: 1px solid #01B1AF;
+			border-right: 1px solid #01B1AF;
+		}
+		#logo span:last-child
+		{
+			position: absolute;
+			top: 10px;
+			left: 7px;
+		}	
+	nav
+	{
+		position: absolute;
+		left: 235px;
+		top: 90px;
+		width: 600px;
+		height: 32px;
+	}
+		nav a
+		{
+			text-decoration: none;
+			color: #5E5D5D;
+			font-size: 14px;
+			padding-bottom: 5px;
+		}
+		nav li
+		{
+			list-style: none;
+			text-align: center;
+		}
+		nav > ul
+		{
+			margin-top: 5px;
+			padding: 0;
+		}
+		nav > ul > li
+		{
+			float: left;
+			width: 100px;
+		}
+		nav > ul > li:hover > a
+		{
+			border-bottom: 2px solid #01B1AF;
+			color: #4595F7;
+		}
+		nav > ul > li:hover > ul
+		{
+			display: block;
+		}
+		nav > ul > li > ul
+		{
+			display: none;
+			width: 100px;
+			margin: 0;
+			padding: 0;
+			position: relative;
+			top: 15px;
+		}
+		nav > ul > li > ul a
+		{
+			display: block;
+			width: 100%;
+			height: 30px;
+		}
+		nav > ul > li > ul a:hover
+		{
+			color: #4595F7;
+		}
+	
+	header .social
+	{
+		position: absolute;
+		right: 90px;
+		top: 90px;
+		width: 33px;
+		height: 33px;
+	}
+footer
+{
+	width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+    #gallery1
+    {
+        position: absolute;
+        left: -270px;
+        top: 250px;
+    }
+    #gallery2
+    {
+        position: absolute;
+        right: -730px;
+        top: 250px;
+    }
+    #page-info
+    {
+        position: absolute;
+        top: 700px;
+        width: inherit;
+        height: 30px;
+    }
+    #page-info span
+    {
+        display: inline-block;
+        font-family: "Helvetica-LT-W10-Roman";
+        font-size: 14px;
+        color: #5E5D5D;
+    }
+	#page-info span.counter
+	{
+        font-family: "counter";
+		font-size: 28px;
+        letter-spacing: 2px;
+        margin-left: 10px;
+	}
+#contact
+{
+    position: absolute;
+    left: 550px;
+    top: 180px;
+    width: 350px;
+    font-size: 14px;
+    color: #5E5D5D;
+}
+    #contact span
+    {
+        display: block;
+        width: 100%;
+        font-family: "raleway";
+        word-wrap: break-word;
+    }
+    #contact span.title
+    {
+        letter-spacing: 0.1em;
+        color: #01B1AF;
+        font-size: 30px;
+        font-family: "DIN-Next-W10-Light";
+    }
+    #contact input
+    {
+        width: 336px;
+        padding: 5px;
+        margin-top: 5px;
+        font-family: "raleway";
+    }
+    #contact textarea
+    {
+        width: 338px;
+        padding: 5px;
+        margin-top: 5px;
+        height: 150px;
+        font-family: "raleway";
+    }
+    #contact button
+    {
+        float: right;
+        font-family: "raleway";
+    }
