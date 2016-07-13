@@ -1,5 +1,7 @@
-# jeezclub.github.io
-jeezclub web test
+# URL of the jeezclub website
+jeezclub.github.io
+# What is GitHub for?
+It is the place where I hold the files that make up "jeezclub.github.io".
 # file description
 index.html -> entry file of the website
 home.html -> 首頁（目前只有header and footer）
