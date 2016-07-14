@@ -112,10 +112,6 @@ header
 		{
 			display: block;
 		}
-		nav > ul > li > ul:hover
-		{
-			display: block;
-		}
 		nav > ul > li > ul
 		{
 			display: none;
